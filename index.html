@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <script src="https://kit.fontawesome.com/c2aa9b01da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="texts">
+            <h1 id="title">Lista de Tarefas</h1>
+            <h3 id="first">Coloque na caixa de texto os itens que você precisa fazer</h3>
+            <h3 id="second">Clique no item para marcá-lo como concluído</h3>
+            <h3 id="third">Clique no "X" para remover o item</h3>
+        </div>
+        <div class="works">
+            <input type="text" name="userItems" id="userItems" placeholder="Novo item...">
+            <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+        </div>
+        <div class="list">
+            <ul id="itemsList"></ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+
+</html>

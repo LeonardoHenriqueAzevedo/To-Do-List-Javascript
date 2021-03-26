@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background: #4169e1;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+    color: #fff;
+    margin-top: 100px 0;
+    font-weight: 800 bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#first{
+    margin-top: 10px;
+    color: #fff40f;
+}
+
+#second{
+    color: #ffdead;
+}
+
+#third{
+    color: #afeeee;
+    margin-bottom: 30px;
+}
+
+#enter {
+    margin-left: 3px;
+    cursor: pointer;
+	border: none;
+    height: 42px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #3434e0 ;
+    color: #fff;
+    transition: all 0.75s ease;
+}
+
+#enter:hover{
+    background-color: #0303f3;
+    color: #ff4040;
+}
+
+#userItems{
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    min-height: 30px;
+    min-width: 65%;
+    border-radius: 5px;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+li{
+    font-size: 20px;
+    border-radius: 5px;
+    list-style: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 641px;
+    text-align: left;
+    margin-top: 7px;
+    width: 500px;
+    background: #000080;
+    padding: 10px 20px;
+    border: 2px solid #afeeee;
+    transition: all 0.75s ease;
+}
+
+li:hover{
+    color: #fff;
+    background: #000037;
+}
+
+li > button{
+    font-weight: 800;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #ff4040;
+    float: right;
+}
+
+li > button:hover{
+    color: #ff0000;
+}
+
+.done{
+    background: #00ff00 !important;
+	color: black !important;
+}
+
+.delete{
+    display: none;
+}
