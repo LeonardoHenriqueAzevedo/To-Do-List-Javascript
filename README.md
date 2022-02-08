@@ -1,4 +1,3 @@
-# To-Do-Javascript
- A To Do List in Javascript
 # ✔️ Project
-A website to find persons to donate blood, register them and after this we can pick the information they passed to us to contact for the blood donation.
+A to do list that you can use to put the things that you need to do and when you complete the things you can click in the item to indicate the thing is done, you have the X to remove the item whenever you want.
+ 
